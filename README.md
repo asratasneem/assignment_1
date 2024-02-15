@@ -28,6 +28,7 @@ The script performs the following steps:
 3. Calculates the correlation matrices for both datasets and rounds the correlation to two decimal places.
 4. Creates heatmap plots of the correlation matrices using seaborn, with annotations.
 5. Computes the Pearson correlation between the original matrices.
+6. Stored the final result in a csv file
 
 ## Output Files
 - Two heatmap plots: one for each correlation matrix (`Matrix1.png` and `Matrix2.png`)
