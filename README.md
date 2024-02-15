@@ -25,10 +25,10 @@ This Python script calculates the correlation matrices for two datasets (`matrix
 The script performs the following steps:
 1. Initially imports necessary libraries: pandas, numpy, seaborn, matplotlib, scipy.
 2. Loads the datasets `matrix1.csv` and `matrix2.csv` into DataFrame variables.
-3. Calculates the correlation matrices for both datasets and rounds the correlation coefficients to two decimal places.
+3. Calculates the correlation matrices for both datasets and rounds the correlation to two decimal places.
 4. Creates heatmap plots of the correlation matrices using seaborn, with annotations.
 5. Computes the Pearson correlation between the original matrices.
 
 ## Output Files
 - Two heatmap plots: one for each correlation matrix (`Matrix1.png` and `Matrix2.png`)
-- Pearson correlation between the original matrices (`Pearson_Correlation.txt`)
+- Pearson correlation between the original matrices (`correlation_of_m1_and_m2.csv`)
